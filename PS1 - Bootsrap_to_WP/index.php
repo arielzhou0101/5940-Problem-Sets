@@ -7,8 +7,7 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <h3><?php blogInfo('name'); ?></h3>
-          <h1>This is a one-page theme integrated for PS#1.</h1>
-          <h5><?php blogInfo('description'); ?></h5>
+          <h1><?php blogInfo('description'); ?></h1>
         </div>
         <div class="col-lg-8 col-lg-offset-2 himg">
           <img src="<?php echo get_template_directory_uri(); ?>/img/browser.png" class="img-responsive">
@@ -39,7 +38,7 @@
 		  			$wp_query->the_post();
 		  ?>
 			<div class="col-md-4">
-				<i class="fa fa-heart-o"></i>
+			<i class="fa fa-heart-o"></i>
 
 				<h4><?php the_title(); ?></h4>
 				<p><?php the_content(); ?></p>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Solid - Bootstrap Business Template</title>
+  <title><?php blogInfo('name'); ?></title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -44,7 +44,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="http://dev-ariel5940.pantheonsite.io/">Start Bootstrap</a>
+                    <a class="navbar-brand" href="http://dev-ariel5940.pantheonsite.io/"><?php blogInfo('name'); ?></a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <!--div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"-->
